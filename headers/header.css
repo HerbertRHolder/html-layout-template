@@ -1,0 +1,57 @@
+
+@media screen and (max-width:700px) {
+    /* Header styles */
+    .logo{
+        margin-left: 2rem;
+    }
+    .logo1{
+        margin-left: 1rem;
+    }
+    menu{
+        margin-right: 1rem;
+    }
+    nav{
+        display: none;
+    }
+    /* Header styles */
+    
+    
+    }
+    
+
+
+
+@media screen and (min-width: 700px) {
+    .logo{
+        margin-left: 1rem !important;
+    }
+    .logo1{
+        margin-left: 1rem !important;
+    }
+    .logo3{
+        display: none;
+    }
+
+    .menu1{
+        display: flex !important;
+        margin-right: 1rem;
+    }
+
+
+    .menu3{
+        display: flex !important;
+        margin-left: 1rem;
+    }
+    .center-middle{
+        position: absolute;
+        left: 50%;
+        margin: 0;
+        padding: 0;
+        transform: translateX(-50%);
+        display: flex;
+       
+    }
+   
+}
+
+
